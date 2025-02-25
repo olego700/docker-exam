@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: frontend
-          image: frenzy669/oleg-exam/frontend-image
+          image: frenzy669/oleg-exam:frontend-image
           ports:
             - containerPort: 5002
           env:
